@@ -31,4 +31,22 @@ private static Map<Integer, Employee> employees;
 	{
 		return this.employees.values();
 	}
+
+	public Employee getEmployeeById(int id)
+	{
+		return this.employees.get(id);
+	}
+
+	public void removeEmployeeById(int id) {
+		this.employees.remove(id);
+	}
+
+	public void updateEmployeeById(Employee employee) {
+		Employee emp = this.employees.get(employee.getId());
+		employee.setName(emp.getName());
+	}
+
+	public void insertEmployee(Employee employee) {
+		this.employees.put(employee.getId(),employee);
+	}
 }

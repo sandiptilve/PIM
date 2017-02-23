@@ -19,4 +19,20 @@ public class EmployeeService {
 		return employeeDao.getAllEmployees();
 	}
 
+	public Employee getEmployeeById(int id)
+	{
+		return this.employeeDao.getEmployeeById(id);
+	}
+
+	public void removeEmployeeById(int id) {
+		this.employeeDao.removeEmployeeById(id);
+	}
+
+	public void updateEmployeeById(Employee employee) {
+		 this.employeeDao.updateEmployeeById(employee);
+	}
+
+	public void insertEmployee(Employee employee) {
+		this.employeeDao.insertEmployee(employee);
+	}
 }
