@@ -1,7 +1,7 @@
-package com.creativecapsule.Service;
+package com.creativecapsule.service;
 
-import com.creativecapsule.Dao.EmployeeDao;
-import com.creativecapsule.Entity.Employee;
+import com.creativecapsule.dao.EmployeeDao;
+import com.creativecapsule.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

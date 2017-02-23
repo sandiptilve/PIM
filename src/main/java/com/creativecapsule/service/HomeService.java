@@ -1,4 +1,4 @@
-package com.creativecapsule.Service;
+package com.creativecapsule.service;
 
 //import org.slf4j.Logger;
 //import org.slf4j.LoggerFactory;

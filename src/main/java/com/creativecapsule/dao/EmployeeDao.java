@@ -1,6 +1,6 @@
-package com.creativecapsule.Dao;
+package com.creativecapsule.dao;
 
-import com.creativecapsule.Entity.Employee;
+import com.creativecapsule.entity.Employee;
 import org.springframework.stereotype.Repository;
 
 import java.util.Collection;

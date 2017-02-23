@@ -1,8 +1,8 @@
-package com.creativecapsule.Controller;
+package com.creativecapsule.controller;
 
 import java.util.Map;
 
-import com.creativecapsule.Service.HomeService;
+import com.creativecapsule.service.HomeService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

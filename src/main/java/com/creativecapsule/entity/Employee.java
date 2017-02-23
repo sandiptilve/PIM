@@ -1,4 +1,4 @@
-package com.creativecapsule.Entity;
+package com.creativecapsule.entity;
 
 /**
  * Created by sandip on 02/22/2017.
